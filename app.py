@@ -14,7 +14,7 @@ from sklearn.metrics import (
 from sklearn.preprocessing import label_binarize
 
 BASE = Path(__file__).resolve().parent
-MODEL_DIR = BASE / "model"
+MODEL_DIR = BASE 
 st.set_page_config(page_title="Dry Bean Classifier Lab", page_icon="🫘", layout="wide")
 
 MODEL_FILES = {
